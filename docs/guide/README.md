@@ -3,7 +3,7 @@
 [[toc]]
 
 ::: danger New version
-Photo Sphere Viewer 4 is not compatible with previous versions. If you are using version 3 , please follow the [migration guide](./migration-v3.md). You can also read the [version 3 documentation](https://photo-sphere-viewer-3.netlify.com).
+This is the documentation for Photo Sphere Viewer 4, which won't receive any new development. Please [migrate to Photo Sphere Viewer 5](https://photo-sphere-viewer.js.org/guide/migration.html).
 :::
 
 ::: tip Playground
@@ -49,7 +49,7 @@ Include all JS & CSS files in your page manually or with your favorite bundler a
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css"/>
 </head>
 
-<script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uevent@2/browser.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.js"></script>
 

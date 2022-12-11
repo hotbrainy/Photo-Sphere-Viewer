@@ -1,4 +1,4 @@
-# Photo Sphere Viewer API Documentation
+# Photo Sphere Viewer 4 API Documentation
 
 [← Main documentation](..)
 

@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: logo.png
-heroText: Photo Sphere Viewer
+heroText: Photo Sphere Viewer 4
 heroAlt: Photo Sphere Viewer
 tagline: A JavaScript library to display Photo Sphere panoramas
 actionText: Get Started →

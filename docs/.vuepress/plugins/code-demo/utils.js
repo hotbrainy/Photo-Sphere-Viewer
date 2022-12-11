@@ -30,7 +30,7 @@ ${html}
 export function getFullResources(resources) {
   return [
     { path: 'https://cdn.jsdelivr.net/npm/uevent@2/browser.js', type: 'js' },
-    { path: 'https://cdn.jsdelivr.net/npm/three/build/three.min.js', type: 'js' },
+    { path: 'https://cdn.jsdelivr.net/npm/three@0.147/build/three.min.js', type: 'js' },
     { path: BASE_URL + 'photo-sphere-viewer.js', type: 'js', imports: ['Viewer'] },
     { path: BASE_URL + 'photo-sphere-viewer.css', type: 'css' },
     ...resources.map(({ path, imports }) => ({

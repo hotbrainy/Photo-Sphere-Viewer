@@ -11,10 +11,10 @@
     "docs/.jsdoc/cleanup-exports"
   ],
   "templates": {
-    "applicationName": "Photo Sphere Viewer",
+    "applicationName": "Photo Sphere Viewer 4",
     "googleAnalytics": "UA-28192323-3",
     "meta": {
-      "title": "Photo Sphere Viewer API Documentation"
+      "title": "Photo Sphere Viewer 4 API Documentation"
     },
     "favicon": "docs/.vuepress/public/favicon.png"
   }

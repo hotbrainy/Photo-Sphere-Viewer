@@ -22,34 +22,42 @@ function getFiles(dir) {
 
 module.exports = {
   dest       : './public',
-  title      : 'Photo Sphere Viewer',
+  title      : 'Photo Sphere Viewer 4',
   description: 'A JavaScript library to display Photo Sphere panoramas',
   head       : [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/uevent@2/browser.js', defer: 'defer' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/three/build/three.min.js', defer: 'defer' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/three@0.147/build/three.min.js', defer: 'defer' }],
     ['script', { src  : 'https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.js', defer: 'defer' }],
     ['link', { rel : 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.css' }],
   ],
   themeConfig: {
     logo        : '/favicon.png',
     repo        : 'mistic100/Photo-Sphere-Viewer',
-    docsDir     : 'docs',
-    docsBranch  : 'dev',
-    editLinks   : true,
+    // docsDir     : 'docs',
+    // docsBranch  : 'dev',
+    // editLinks   : true,
     smoothScroll: true,
     sidebarDepth: 3,
-    algolia     : {
-      appId    : '5AVMW192FM',
-      apiKey   : 'd443b6c08ed5353575f503b7a57f5bbf',
-      indexName: 'photo-sphere-viewer',
-    },
+    // algolia     : {
+    //   appId    : '5AVMW192FM',
+    //   apiKey   : 'd443b6c08ed5353575f503b7a57f5bbf',
+    //   indexName: 'photo-sphere-viewer',
+    // },
     nav         : [
       { text: 'Guide', link: '/guide/' },
       { text: 'Plugins', link: '/plugins/' },
       { text: 'Playground', link: '/playground' },
       { text: 'Demos', link: '/demos/' },
-      { text: 'API', link: 'https://photo-sphere-viewer.js.org/api/' },
+      { text: 'API', link: 'https://photo-sphere-viewer-4.netlify.app/api/' },
+      {
+          text: 'v4',
+          ariaLavel: 'version',
+          items: [
+              { text: 'v5', link: 'https://photo-sphere-viewer.js.org' },
+              { text: 'v3', link: 'https://photo-sphere-viewer-3.netlify.app' },
+          ],
+      },
       { text: 'Changelog', link: '/changelog' },
     ],
     sidebar     : {
@@ -91,6 +99,7 @@ module.exports = {
               ],
             },
             'frameworks',
+            'migration-v3',
           ],
         },
       ],
